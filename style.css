@@ -1,0 +1,99 @@
+body {
+    background-image: url(abstract-art-background-1037996.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: rgba(rgb(10, 10, 150), alpha);
+    text-align: center;
+}
+
+.iceland img {
+    border-radius: 50%;
+    height: auto; 
+    width: auto; 
+    max-width: 280px; 
+    max-height: 280px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linkedin img {
+    max-height: 40px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    font-family: 'Bree Serif', serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: 'Bitter', serif;
+}
+
+a:link {
+    text-decoration: none;
+    margin: 0 auto;
+    color: whitesmoke;
+    font-size: 30px;
+  }
+
+a:hover {
+    color: hotpink;
+  }
+
+nav {
+    font-family: 'Bitter', serif;
+    color: whitesmoke;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.copyr {
+    font-size: 8px;
+    color: black;
+}
+
+.reach {
+    line-height: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/* font-family: 'Bitter', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Heebo', sans-serif; */
